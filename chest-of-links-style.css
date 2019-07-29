@@ -16,7 +16,7 @@ body {
     font-family: sans;
     font-size: 30px;
     text-align: center;
-    color: midnightblue;
+    color: #003300 ;
     margin-top: 5px;
     margin-bottom: 5px;
     font-weight: lighter;
@@ -27,7 +27,7 @@ body {
     text-align: center;
     margin-top: 0;
     margin-bottom: 16px;
-    color: midnightblue;
+    color: #003300 ;
 }
 
 div#chest_of_drawer{
@@ -35,19 +35,20 @@ div#chest_of_drawer{
     width: 94%;
     margin: auto;
     text-align: center;
+    min-height: calc(100vh - 40px);
 }
 
 #chest_of_drawer > a{
     margin: 10px auto;
     height: 25px;
     border-radius: 10px;
-    border: 1px solid MidnightBlue;
+    border: 1px solid #003300 ;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to bottom right,LightCyan ,PowderBlue,PowderBlue, DarkCyan  );
+    background-image: linear-gradient(to bottom right, #ebf5d6, #d6ebad, #add65c,#99cc33, OliveDrab);
     /*if you'd like to change colors and you don't know the correct color-names..
     you could have a look at: https://www.w3schools.com/colors/colors_names.asp */
     text-decoration: none;
-    color: MidnightBlue;
+    color: #003300 ;
     text-align: center;
     font-weight: bold;
     display: block;
@@ -55,12 +56,9 @@ div#chest_of_drawer{
 }
 
 .cc {
-    position: absolute;
-    bottom: 15px;
-    display: inline;
     font-size: 12px;
-    color: midnightblue;
+    color: #003300 ;
     text-align: center;
-    margin: auto;
-    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
 }
