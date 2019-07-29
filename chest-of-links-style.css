@@ -35,7 +35,7 @@ div#chest_of_drawer{
     width: 94%;
     margin: auto;
     text-align: center;
-    min-height: calc(100vh - 40px);
+    min-height: calc(100vh - 55px);
 }
 
 #chest_of_drawer > a{
@@ -60,5 +60,5 @@ div#chest_of_drawer{
     color: #003300 ;
     text-align: center;
     height: 30px;
-    margin-bottom: 10px;
+    margin: 10px auto 15px auto;
 }
